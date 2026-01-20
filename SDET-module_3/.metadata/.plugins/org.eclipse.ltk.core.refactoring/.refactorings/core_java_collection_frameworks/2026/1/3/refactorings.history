@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.capgemini.different_way_to_print_collection.map.java&apos; to &apos;Map.java&apos;&#x0A;- Original project: &apos;core_java_collection_frameworks&apos;&#x0A;- Original element: &apos;com.capgemini.different_way_to_print_collection.map.java&apos;&#x0A;- Renamed element: &apos;com.capgemini.different_way_to_print_collection.Map.java&apos;" description="Rename compilation unit &apos;map.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.capgemini.different_way_to_print_collection{map.java" name="Map.java" references="false" stamp="1768386914986" version="1.0"/>
+</session>

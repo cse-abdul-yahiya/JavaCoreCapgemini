@@ -1,0 +1,14 @@
+package com.capgemini.POJOclass;
+
+import java.io.Serializable;
+import java.util.Objects;
+
+@No
+
+public class ProductBean implements Serializable{
+	private Integer id;
+	private String brand;
+	private String name;
+	private Double price;
+	
+}

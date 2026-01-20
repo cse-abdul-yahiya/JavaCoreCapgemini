@@ -1,0 +1,31 @@
+/**
+ * 
+ */
+package com.capgemini.practice.questions;
+import java.util.*;
+
+/**
+ * 
+ */
+public class Palindrom {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter your String: ");
+		String str=sc.next();
+		boolean result=isPalindrome(str);
+		System.out.println(result);
+		
+	}
+	
+	public static boolean isPalindrome(String str) {
+		String rev="";
+		char [] arr = str.toCharArray();
+		for(int i=arr.length-1;i>=0;i--) {
+			 rev = rev +arr[i];
+		}
+		return str.equalsIgnoreCase(rev);
+		
+	}
+	
+
+}

@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package com.practice.questions.Display.digit.from.one.to.nine;
+
+/**
+ * 
+ */
+public interface Main {
+	public static void main(String[] args) {
+		DisplayDigits.displayDigit();
+		DisplayDigits.displayAlphaUpper();
+		DisplayDigits.displayAlphaLower();
+		DisplayDigits.displayWeekDays();
+		DisplayDigits.monthOfYear();
+	}
+
+}

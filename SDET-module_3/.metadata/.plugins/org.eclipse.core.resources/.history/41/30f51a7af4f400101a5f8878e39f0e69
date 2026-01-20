@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+package com.capgemini.etry.and.ecatch;
+
+/**
+ * 
+ */
+public interface JavaApplication {
+
+}

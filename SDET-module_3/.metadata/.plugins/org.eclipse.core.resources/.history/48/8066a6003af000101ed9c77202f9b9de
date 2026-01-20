@@ -1,0 +1,17 @@
+package dev_test;
+
+import java.io.Serializable;
+import java.util.Objects;
+
+
+
+
+public class ProductBean implements Serializable{
+	private Integer id;
+	private String brand;
+	private String name;
+	private Double price;
+	
+	
+
+}

@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.capgemini.test;
+
+/**
+ * 
+ */
+public record Product(Integer id,  String name, String brand,Double price) {
+	
+
+}

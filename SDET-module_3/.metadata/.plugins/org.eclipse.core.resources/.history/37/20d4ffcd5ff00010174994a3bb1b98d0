@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+package com.capgemini.display.even.odd;
+
+import java.lang.reflect.Array;
+
+/**
+ * 
+ */
+public interface EvenOdd {
+	
+	public static void displayEvenOdd() {
+		Integer[] arr=(Integer[]) Array.newInstance(Integer.class, 20);
+		for(int i=0;i<arr.length;i++) {
+			
+		}
+		
+		
+	}
+	
+
+}

@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+package com.capgemini.String.index.out.of.bound.exception;
+
+/**
+ * 
+ */
+public interface JavaApplication {
+	public static void execution() {
+		String string ="abdul@123";
+		try {
+			for (int i = 0; i <= string.length(); i++) {
+				System.out.print(string.charAt(i));
+			}
+		}
+		catch(StringIndexOutOfBoundsException stringIndexOutOfBoundsException) {
+			System.out.println();
+			System.out.println("Exceeding the limitation of array");
+		}
+	}
+
+}

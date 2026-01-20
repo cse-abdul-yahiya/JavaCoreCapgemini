@@ -1,0 +1,40 @@
+/**
+ * 
+ */
+package com.capgemini.green_lottery_ticket;
+
+/**
+ * 
+ */
+public class GreenLotteryTicket {
+	int a;
+	int b;
+	int c;
+	/**
+	 * @param a
+	 * @param b
+	 * @param c
+	 */
+//	public GreenLotteryTicket(int a, int b, int c) {
+//		super();
+//		this.a = a;
+//		this.b = b;
+//		this.c = c;
+//	}
+	public int greenTicket(int a, int b, int c) {
+		if((a!=b) && (b!=c) && (c!=a)) {
+			return 0;
+		}
+		else if((a==b) && (b==c) && (c==a)) {
+			return 20;
+		}
+		else if((a==b) || (b==c) || (c==a)){
+			return 10;
+		}
+			
+		return -1;
+		
+	}
+	
+
+}

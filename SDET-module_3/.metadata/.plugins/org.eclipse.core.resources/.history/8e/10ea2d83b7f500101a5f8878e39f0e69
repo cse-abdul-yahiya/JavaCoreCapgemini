@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+package com.cepgemin.classCastException;
+
+/**
+ * 
+ */
+public interface JavaApplication {
+
+}

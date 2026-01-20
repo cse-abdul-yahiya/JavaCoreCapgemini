@@ -1,0 +1,1 @@
+package com.capgemini.green_lottery_ticket;

@@ -1,0 +1,43 @@
+/**
+ * 
+ */
+package com.capgemini.different_way_to_print_collection;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.ListIterator;
+
+/**
+ * 
+ */
+public class JavaApplication {
+	public static void list() {
+		ArrayList<Integer> al  = new ArrayList<Integer>();
+		al.add(-10);
+		al.add(2);
+		al.add(-9);
+		al.add(3);
+//		System.out.println(al);
+		
+		for(int i=0;i<al.size();i++) {
+			System.out.print(al.get(i)+" ");
+		}
+		System.out.println();
+		for (Integer integer : al) {
+			System.out.print(integer+" ");
+		}
+		System.out.println();
+		Iterator<Integer> iterator = al.iterator();
+		while(iterator.hasNext()) {
+			System.out.print(iterator.next()+" ");
+		}
+		
+		System.out.println();
+		ListIterator<Integer> listIterator = al.listIterator(3);
+		while(listIterator.hasPrevious()) {
+			System.out.print(listIterator.previous()+" ");
+		}
+		
+	}
+
+}

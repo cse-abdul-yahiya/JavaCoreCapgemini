@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package com.capgemini.display.even.odd;
+
+/**
+ * 
+ */
+public interface JavaApplication {
+	
+	
+
+}

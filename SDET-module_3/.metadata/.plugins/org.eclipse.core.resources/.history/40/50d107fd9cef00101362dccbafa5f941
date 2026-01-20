@@ -1,0 +1,35 @@
+/**
+ * 
+ */
+package module_3_array;
+
+/**
+ * 
+ */
+public interface JavaApplication {
+	public static void execution() {
+		
+		//decleration
+		int [] array;
+		
+		//instatiation
+		array=new int[3];
+		
+		//initialization
+		
+		
+		array[0]=1; array[1]=2; array[2]=3;
+		
+		//utilization- for loop
+		for(int i =0;i<array.length;i++) {
+			System.out.print(array[i]+" ");
+		}
+		System.out.println();
+		
+		//utilization- foreach loop
+		for(int i:array) {
+			System.out.print(i+" ");
+		}
+	}
+
+}

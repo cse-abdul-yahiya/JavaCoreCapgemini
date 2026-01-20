@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package com.capgemini.throwable;
+
+/**
+ * 
+ */
+public interface Main {
+	public static void main(String[] args) {
+//		JavaApplication.execution();
+		ScannerExc.execution();
+	}
+
+}

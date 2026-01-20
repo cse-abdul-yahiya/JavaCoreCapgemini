@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package com.capgemini.test;
+
+/**
+ * 
+ */
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		JavaApplication.execution();
+		JavaApplication.execution1();
+		JavaApplication.execution2();
+
+	}
+
+}

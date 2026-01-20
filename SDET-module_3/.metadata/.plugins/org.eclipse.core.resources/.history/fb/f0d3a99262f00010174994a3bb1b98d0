@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+package com.practice.questions.Display.digit.from.one.to.nine;
+
+/**
+ * 
+ */
+public interface Main {
+
+}

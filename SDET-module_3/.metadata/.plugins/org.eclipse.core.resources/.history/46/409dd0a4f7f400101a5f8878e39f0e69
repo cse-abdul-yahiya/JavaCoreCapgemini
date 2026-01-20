@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package com.capgimini.nullpointer.exception;
+
+/**
+ * 
+ */
+public interface JavaApplication {
+	public static void execution() {
+		try {
+			String s = "java";
+			System.out.println(s+" "+s.length());
+		
+		}
+		catch(NullPointerException nullPointerException) {
+			System.out.println("Cannot point null with anything");
+		}
+	}
+
+}

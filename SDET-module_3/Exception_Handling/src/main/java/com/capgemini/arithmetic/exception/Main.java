@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package com.capgemini.arithmetic.exception;
+
+/**
+ * 
+ */
+public interface Main {
+public static void main(String[] args) {
+//	JavaApplication.execution();
+	JavaApplication.execution1();
+}
+}

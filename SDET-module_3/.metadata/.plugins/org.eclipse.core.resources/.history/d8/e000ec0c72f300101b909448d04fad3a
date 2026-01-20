@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package com.capgemini.green_lottery_ticket;
+
+/**
+ * 
+ */
+public class JavaApplication {
+	public static void execution() {
+		GreenLotteryTicket gt = new GreenLotteryTicket();
+		System.out.println(gt.greenTicket(4,5,6));
+	}
+
+}

@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package com.capgemini.blue_lotter_ticket;
+
+/**
+ * 
+ */
+
+public interface JavaApplication {
+
+	BlueLotteryTicket bl=new BlueLotteryTicket();
+	System.out.println(bl.lueLottery(2,3,4));
+	
+}
+;

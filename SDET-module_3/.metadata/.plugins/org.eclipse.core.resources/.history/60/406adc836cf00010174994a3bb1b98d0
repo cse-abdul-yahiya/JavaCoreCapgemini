@@ -1,0 +1,41 @@
+/**
+ * 
+ */
+package com.capgemini.student.object;
+
+import java.lang.reflect.Array;
+import java.util.Iterator;
+import java.util.Scanner;
+
+/**
+ * 
+ */
+public interface JavaApplication  {
+	public static void execution() {
+		Student [] students;
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter size of student array: ");
+		int n=sc.nextInt();
+		
+		students=(Student[])Array.newInstance(Student.class,n);
+		for (int i = 0; i < students.length; i++) {
+			
+			System.out.println("Enter Student id: ");
+			int id=sc.nextInt();
+			
+			System.out.println("Enter Student name: ");
+			String name=sc.next();
+			System.out.println("Enter Student mail id: ");
+			String mailId=sc.next();
+			
+			Student student=new Student(id,name,mailId);
+			Array.set(students,i,student );
+			
+		}
+		
+		for (int i = 0; i < students.length; i++) {
+			System.out.println("Student details are: "+Array.get(students, i));
+		}
+	}
+
+}

@@ -1,0 +1,74 @@
+/**
+ * 
+ */
+package com.practice.questions.Display.digit.from.one.to.nine;
+
+import java.lang.reflect.Array;
+import java.util.*;
+
+/**
+ * 
+ */
+public interface DisplayDigits {
+	
+	public static void displayDigit() {
+		Integer[] arr = (Integer[]) Array.newInstance(Integer.class, 10);
+		for(int i=0;i<arr.length;i++) {
+			Array.set(arr, i,i);
+		}
+		System.out.println();
+		System.out.print("Digits: ");
+		for (int i = 0; i < arr.length; i++) {
+			System.out.print(Array.get(arr, i)+" ");
+			
+		}
+	}
+	
+	public static void displayAlphaUpper() {
+		Character[] arr = (Character[]) Array.newInstance(Character.class, 26);
+		for(int i=0;i<arr.length;i++) {
+			Array.set(arr, i, (char) ('A' + i));
+		}
+		System.out.println();
+		System.out.print("Upper Case Characters: ");
+		for (int i = 0; i < arr.length; i++) {
+			System.out.print(Array.get(arr, i)+" ");
+			
+		}
+	}
+	
+	public static void displayAlphaLower() {
+		Character[] arr = (Character[]) Array.newInstance(Character.class, 26);
+		for(int i=0;i<arr.length;i++) {
+			Array.set(arr, i, (char) ('a' + i));
+		}
+		System.out.println();
+		System.out.print("Lower Case Characters: ");
+		for (int i = 0; i < arr.length; i++) {
+			System.out.print(Array.get(arr, i)+" ");
+			
+			
+		}
+		System.out.println();
+	}
+	
+	
+	public static void displayWeekDays() {
+		String[] week =(String[]) Array.newInstance(String.class, 7);
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter Days of week: ");
+		for(int i=0;i<week.length;i++) {
+			Array.set(week, i, sc.nextLine());
+			
+		}
+		
+		System.out.println();
+		System.out.print("Week Days are: ");
+		for (int i = 0; i < week.length; i++) {
+			System.out.print(Array.get(week, i)+" ");
+		}
+		
+		
+	}
+
+}

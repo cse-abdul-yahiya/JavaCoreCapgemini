@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+package com.capgemini.blue_lotter_ticket;
+
+/**
+ * 
+ */
+public interface JavaApplication {
+
+}
